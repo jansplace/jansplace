@@ -5,12 +5,14 @@
 	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-PVZZX952T3'); </script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<title>Jan's Place Restaurant &amp; Bakery, Jensen Beach, Florida</title>
-	<meta name="description" content="###" />
+	<meta name="description" content="Sizable servings of breakfast &amp; lunch fare include homemade fresh-baked goods at this simple American diner." />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Jan's Place Restaurant &amp; Bakery, Jensen Beach, Florida" />
-	<meta property="og:description" content="###" />
+	<meta property="og:description" content="Sizable servings of breakfast &amp; lunch fare include homemade fresh-baked goods at this simple American diner." />
 	<meta property="og:url" content="https://www.lynxdx.com/" />
 	<meta property="og:site_name" content="Jan's Place Restaurant &amp; Bakery" />
 	<meta property="og:image" content="###" />
@@ -58,10 +60,131 @@
 		}
 	</script>
 	<link rel="shortcut icon" href="###.png" type="image/x-icon" />
+	
+	<link href="https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+	<style>
+		:root {
+		  --circle-wh-thick: 80px;
+		  --border-width-thick: 8px;
+		  --primary-blue: #224F94;
+		  --primary-red: #B72C1D;
+		}
+		*, *::before, *::after { box-sizing: border-box; }
+		* { margin: 0; }
+		body { line-height: 1.35; -webkit-font-smoothing: antialiased; }
+		img, picture, video, canvas, svg { display: block; max-width: 100%;	}
+		input, button, textarea, select { font: inherit; }
+		p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+		h1, h2, h3, h4, h5, h6 { font-family: "Inika", serif; line-height: 1.25; }
+		h1 { font-size: clamp(2.5rem, 2.1818rem + 1.2121vw, 3rem); margin-bottom: 0.5rem; }
+		h2 { font-size: clamp(1.75rem, 1.5909rem + 0.6061vw, 2rem); margin-bottom: 1.25rem; margin-top: 0.75rem; }
+		p { font-family: "Roboto", sans-serif; margin-bottom: 1.25em; }
+		p a { color:#B72C1D; }
+		#root, #__next { isolation: isolate; }
+		.border { border-color: var(--primary-blue); border-style: solid; width: calc(100vw - var(--circle-wh-thick) - calc(var(--border-width-thick) * 2)); margin: auto; max-width: calc( 800px - var(--circle-wh-thick) - var(--border-width-thick) ); }
+		.border_top,
+		.border_bottom { border-width: var(--border-width-thick) 0 0 0; height: min-content; position: relative; margin-top: var(--border-width-thick);
+			
+			&:before,
+			&:after { 
+				position: absolute; 
+				content:""; 
+				width: var(--circle-wh-thick); 
+				height: var(--circle-wh-thick); 
+				top:calc(( var(--circle-wh-thick) / 2 ) * -1); border-radius: 50%; background: conic-gradient( from 90deg, var(--primary-blue), var(--primary-blue) 25%, transparent 25% );
+				-webkit-mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
+				mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) ); 
+			}
+			
+			&:before {  
+				left: calc( ( var(--circle-wh-thick) * -1 ) + var(--border-width-thick)); 
+				background: conic-gradient( from 90deg, var(--primary-blue), var(--primary-blue) 25%, transparent 25% );
+				-webkit-mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
+				mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
+			}
+			
+			&:after {
+				right: calc( ( var(--circle-wh-thick) * -1 ) + var(--border-width-thick)); transform: rotate(90deg);
+			}
+		}
+		.border_bottom { margin-top:calc( var(--border-width-thick) * -3 ) !important;
+			&:before { transform: rotate(270deg); }
+			&:after { transform: rotate(180deg); }
+		}
+		section { max-width: 800px; margin:auto;
+			& .border_section  {border-width: 0 var(--border-width-thick); border-color: var(--primary-blue); border-style: solid; margin: calc( var(--circle-wh-thick) / 2 - var(--border-width-thick) ) var(--border-width-thick) 0; padding-top: 2rem; }
+		}
+		.content_wrapper { width: 92%; margin: 0 auto 3rem; }
+		.jans_content { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+		
+		.contact_grid { display: inline-grid; grid-template-columns: auto 1fr; column-gap: 0.75rem; row-gap: 1.25rem; 
+			& p { margin-bottom: 0; }
+			& svg { width: 1rem; }
+		}
+		.button_wrapper { text-align:left; }
+		.btn { color: #FFF; background-color: var(--primary-red); display: inline-flex; text-decoration: none; font-weight: 600; font-size: 1.125rem; padding: 0.75rem 1.75rem; border-radius: 5rem; transition: all 0.3s ease; border:2px solid var(--primary-red);
+			& svg { fill: #FFF; height: 1em; margin-left: 0.65em; margin-top:2px; transition: all 0.3s ease; }
+			
+			&:hover,
+			&:focus { background-color: #FFF; color: var(--primary-red);
+				& svg { fill: var(--primary-red); }
+			 }
+		}
+		footer { font-size: 0.75rem; text-align: center; max-width: 92%; margin: 1rem auto; font-family: "Roboto", sans-serif; color: #888; 
+			& a { color: #888; text-decoration: underline; }
+		}
+		@media (max-width: 35.3125rem) {
+			.jans_content { grid-template-columns: auto; 
+				& > div { text-align: center; }
+			}
+			.button_wrapper { text-align: center; }
+			.contact_grid { 
+				& p { text-align: left; }
+			}
+		}
+		 
+	</style>
 </head>
 
 <body>
-	<h1 style="text-align: center; margin-top:2em;">Coming Soon&hellip;</h1>
+	<div class="border border_top"></div>
+	<main>
+		<section>
+			<div class="border_section">
+				<img src="jans-place-restaurant-logo.png" width="600" height="234" alt="Jan's Place Restaurant" style="width: 94%; max-width:400px;height:auto; margin: 0 auto 2rem;"  />
+				
+				<div class="content_wrapper jans_content">
+					<div>
+						<h1>Welcome!</h1>
+						<p>Join us for sizable servings of breakfast, brunch, lunch and more at Jan's Place Restaurant &amp; Bakery in Jensen Beach, FL.</p>
+						<p>Family owned-and-operated, celebrating 33 years.</p>
+						<p class="button_wrapper"><a class="btn" href="jans-place-restaurant-menu-may2024.pdf" target="_blank">Our Menu <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z"/></svg></a></p>
+					</div>
+					<div>
+						<h2>Call, Click, or Visit</h2>
+						<div class="contact_grid">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="margin-top:2px;"><title>Hours of Operation at Jan's Place</title><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+							<p><strong>Hours:</strong> 7AM-2:30PM Everyday</p>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:3px;"><title>Jan's Place Address</title><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+							<p>1990 NE Jensen Beach Blvd<br>Jensen Beach, FL 34957</p>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><title>Jan's Place Phone Number</title><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z"/></svg>
+							<p><a href="tel:+17723349590">(772) 334-9590</a></p>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="margin-top:4px;"><title>Jan's Place Email Address</title><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+							<p><a href="mailto:jans@jansplace.com">jans@jansplace.com</a></p>
+						</div>
+					</div>
+					
+				</div>
+			
+				
+				<div class="content_wrapper" style="padding-bottom:3rem;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1773.600320572462!2d-80.2256812!3d27.244236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dee705c4460715%3A0x60d8c8411271dcd0!2sJan&#39;s%20Place%20Restaurant%20and%20Bakery!5e0!3m2!1sen!2sus!4v1716986834457!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</section>
+	</main>
+	<div class="border border_bottom"></div>
+	<footer>&copy; Jan's Place Restaurant &amp; Bakery 2024 | All Rights Reserved | Powered by <a href="https://opuscule.com/" target="_blank">Opuscule</a></footer>
 </body>
 
 </html>
