@@ -56,11 +56,11 @@
   			"longitude": "80.2256187232788"
 			},
 			"priceRange":"$$"
-		
+
 		}
 	</script>
 	<!-- <link rel="shortcut icon" href="###.png" type="image/x-icon" /> -->
-	
+
 	<link href="https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 	<style>
 		:root {
@@ -84,25 +84,25 @@
 		.border { border-color: var(--primary-blue); border-style: solid; width: calc(100vw - var(--circle-wh-thick) - calc(var(--border-width-thick) * 2)); margin: auto; max-width: calc( 800px - var(--circle-wh-thick) - var(--border-width-thick) ); }
 		.border_top,
 		.border_bottom { border-width: var(--border-width-thick) 0 0 0; height: min-content; position: relative; margin-top: var(--border-width-thick);
-			
+
 			&:before,
-			&:after { 
-				position: absolute; 
-				content:""; 
-				width: var(--circle-wh-thick); 
-				height: var(--circle-wh-thick); 
+			&:after {
+				position: absolute;
+				content:"";
+				width: var(--circle-wh-thick);
+				height: var(--circle-wh-thick);
 				top:calc(( var(--circle-wh-thick) / 2 ) * -1); border-radius: 50%; background: conic-gradient( from 90deg, var(--primary-blue), var(--primary-blue) 25%, transparent 25% );
 				-webkit-mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
-				mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) ); 
+				mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
 			}
-			
-			&:before {  
-				left: calc( ( var(--circle-wh-thick) * -1 ) + var(--border-width-thick)); 
+
+			&:before {
+				left: calc( ( var(--circle-wh-thick) * -1 ) + var(--border-width-thick));
 				background: conic-gradient( from 90deg, var(--primary-blue), var(--primary-blue) 25%, transparent 25% );
 				-webkit-mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
 				mask: radial-gradient( farthest-side, transparent calc(100% - 8px), #fff calc(100% - 8px) );
 			}
-			
+
 			&:after {
 				right: calc( ( var(--circle-wh-thick) * -1 ) + var(--border-width-thick)); transform: rotate(90deg);
 			}
@@ -116,33 +116,33 @@
 		}
 		.content_wrapper { width: 92%; margin: 0 auto 3rem; }
 		.jans_content { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-		
-		.contact_grid { display: inline-grid; grid-template-columns: auto 1fr; column-gap: 0.75rem; row-gap: 1.25rem; 
+
+		.contact_grid { display: inline-grid; grid-template-columns: auto 1fr; column-gap: 0.75rem; row-gap: 1.25rem;
 			& p { margin-bottom: 0; }
 			& svg { width: 1rem; }
 		}
 		.button_wrapper { text-align:left; }
 		.btn { color: #FFF; background-color: var(--primary-red); display: inline-flex; text-decoration: none; font-weight: 600; font-size: 1.125rem; padding: 0.75rem 1.75rem; border-radius: 5rem; transition: all 0.3s ease; border:2px solid var(--primary-red);
 			& svg { fill: #FFF; height: 1em; margin-left: 0.65em; margin-top:2px; transition: all 0.3s ease; }
-			
+
 			&:hover,
 			&:focus { background-color: #FFF; color: var(--primary-red);
 				& svg { fill: var(--primary-red); }
 			 }
 		}
-		footer { font-size: 0.75rem; text-align: center; max-width: 92%; margin: 1rem auto; font-family: "Roboto", sans-serif; color: #888; 
+		footer { font-size: 0.75rem; text-align: center; max-width: 92%; margin: 1rem auto; font-family: "Roboto", sans-serif; color: #888;
 			& a { color: #888; text-decoration: underline; }
 		}
 		@media (max-width: 35.3125rem) {
-			.jans_content { grid-template-columns: auto; 
+			.jans_content { grid-template-columns: auto;
 				& > div { text-align: center; }
 			}
 			.button_wrapper { text-align: center; }
-			.contact_grid { 
+			.contact_grid {
 				& p { text-align: left; }
 			}
 		}
-		 
+
 	</style>
 </head>
 
@@ -152,7 +152,7 @@
 		<section>
 			<div class="border_section">
 				<img src="jans-place-restaurant-logo.png" width="600" height="234" alt="Jan's Place Restaurant" style="width: 94%; max-width:400px;height:auto; margin: 0 auto 2rem;"  />
-				
+
 				<div class="content_wrapper jans_content">
 					<div>
 						<h1>Welcome!</h1>
@@ -170,15 +170,15 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><title>Jan's Place Phone Number</title><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z"/></svg>
 							<p><a href="tel:+17723349590">(772) 334-9590</a></p>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="margin-top:4px;"><title>Jan's Place Email Address</title><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-							<p><a href="mailto:jans@jansplace.com">jans@jansplace.com</a></p>
+							<p><a href="mailto:jans@jansplacefl.com">jans@jansplacefl.com</a></p>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Jan's Place on Facebook</title><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
 							<p><a href="https://www.facebook.com/Jansplacejensenbeach/" target="_blank" rel="noopener nofollow">Join us on Facebook</a></p>
 						</div>
 					</div>
-					
+
 				</div>
-			
-				
+
+
 				<div class="content_wrapper" style="padding-bottom:3rem;">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1773.600320572462!2d-80.2256812!3d27.244236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dee705c4460715%3A0x60d8c8411271dcd0!2sJan&#39;s%20Place%20Restaurant%20and%20Bakery!5e0!3m2!1sen!2sus!4v1716986834457!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
